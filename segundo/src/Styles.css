@@ -19,3 +19,21 @@
   height: 90px;
   margin: 10px;
 }
+
+.main {
+  height: 65vh;
+  padding: 20px;
+}
+
+.footer {
+  height: 15vh;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.footer a {
+  text-decoration: none;
+  display: block;
+  color: white;
+}
