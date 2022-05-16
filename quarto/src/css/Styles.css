@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: cadetblue;
+  color: #fff;
+  padding: 20px;
+}
+
+.header img {
+  min-width: 15%;
+  max-width: 40%;
+}
+
+.header h1 {
+  width: 70vw;
+  text-align: left;
+}
+
+.header h2 {
+  margin-left: 260px;
+  /* width: 50vw; */
+  text-align: left;
+}
+
+.container {
+  display: flex;
+  direction: row;
+}
+
+.container .mensagens {
+  width: 30vw;
+  padding: 20px;
+  margin: 5px;
+  height: 70vh;
+  background-color: rgb(186, 201, 228);
+}
+
+.container .conteudo {
+  width: 70%;
+  padding: 20px;
+  margin: 5px;
+  height: 70vh;
+}
